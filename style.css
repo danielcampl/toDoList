@@ -114,3 +114,61 @@ ul li span{
 ul li span:hover{
     background: #cccccc;
 }
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 468px) {
+    .container-list{
+        max-width: 340px;
+    }
+
+    .top h1 {
+        font-size: 26px;
+    }
+
+    input{
+        padding: 0;
+        width: 80px;
+    }
+
+    button{
+        padding: 12px 30px;
+        font-size: 12px;
+    }
+
+    ul li{
+        font-size: 15px;
+    }
+
+    ul li::before{
+        height: 22px;
+        width: 22px;
+    }
+}
+
+@media (min-width: 469px) and (max-width: 768px) {
+    .container-list{
+        max-width: 410px;
+    }
+
+    .top h1 {
+        font-size: 30px;
+    }
+
+    input{
+        padding: 5px;
+    }
+
+    button{
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    ul li{
+        font-size: 17px;
+    }
+
+    ul li::before{
+        height: 24px;
+        width: 24px;
+    }
+}
